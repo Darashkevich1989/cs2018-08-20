@@ -1,5 +1,9 @@
 package by.it._tasks_.lesson02;
 
+import org.hamcrest.core.SubstringMatcher;
+
+import java.util.Scanner;
+
 /* Нужно написать программу, которая вводит два числа с клавиатуры
 и выводит их сумму на экран в виде
 
@@ -10,7 +14,21 @@ package by.it._tasks_.lesson02;
 Sum = 26
 */
 class TaskC1 {
-
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter any number:n1");
+        System.out.println("Enter any number:n2");
+        int n1 = sc.nextInt();
+        int n2 = sc.nextInt();
+        sc.close();
+        String s = "Sum";
+        int result =n1+n2;
+        System.out.print(s);
+        System.out.print(" ");
+        System.out.print("=");
+        System.out.print(" ");
+        System.out.println(result);
+    }
 
 
 
