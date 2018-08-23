@@ -19,5 +19,16 @@ int i=sc.nextInt();
 
  */
 
+import java.util.Scanner;
+
 class TaskB1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter any number:");
+        int a = sc.nextInt();
+        sc.close();
+        int i = a * a;
+        System.out.println(i);
+
+    }
 }
