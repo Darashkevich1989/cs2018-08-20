@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson03;
+package by.it._tasks_.darashkevich.lesson03;
 
 /*
 Lesson 03. Task A1. Калькулятор.
@@ -38,8 +38,25 @@ import java.util.Scanner;
 class TaskA1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter any number:");
-        int n = sc.nextInt();
+        System.out.print("Enter any number:a");
+        System.out.println("Enter any number:b");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        int sum = a+b;
+        int m = a-b;
+        int p = a*b;
+        int d = a/b;
+        int mod = a%b;
+        double s = (double) a+b;
+        double i = (double)a-b;
+        double j = (double)a*b;
+        double di = (double)a/b;
+        double mo = (double)a%b;
+        System.out.println(sum+" "+m+" "+p+" "+d+" "+mod );
+        System.out.println(s+" "+i+" "+j+" "+di+" "+mo );
+
+
     }
 
 }
