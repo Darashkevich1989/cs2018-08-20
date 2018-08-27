@@ -52,7 +52,8 @@ public class TaskA2 {
             case 7:
                 System.out.println("воскресенье");
                 break;
-            default:
+
+
         }
     }
 }

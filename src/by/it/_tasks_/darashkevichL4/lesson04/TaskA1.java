@@ -31,9 +31,7 @@ public class TaskA1 {
             if (i == 9 || i == 3) {
                 System.out.println("Меня интересует высокая зарплата!");
             } else {
-
                 System.out.println("Я изучаю программирование.");
-
             }
 
         }
