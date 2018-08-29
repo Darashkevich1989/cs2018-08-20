@@ -1,4 +1,4 @@
-package by.it._tasks_.darashkevichL4.lesson04;
+package by.it._tasks_.darashkevich.lesson04;
 /*
 Существует ли пара?
 Ввести с клавиатуры три целых числа.

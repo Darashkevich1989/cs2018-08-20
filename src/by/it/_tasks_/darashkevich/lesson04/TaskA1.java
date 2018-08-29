@@ -1,4 +1,4 @@
-package by.it._tasks_.darashkevichL4.lesson04;
+package by.it._tasks_.darashkevich.lesson04;
 
 /*
 Выведите на экран в цикле 10 раз фразу
