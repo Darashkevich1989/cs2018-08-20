@@ -44,32 +44,36 @@ public class TaskC1 {
         Scanner sc = new Scanner(System.in);
         int s = sc.nextInt();
 
-        if (s < 300 || s > 3000) {
-            System.out.println("Мы вам перезвоним!");
-        }
+        if (s < 300 || s > 3000){
+            System.out.println("Мы вам перезвоним!");}
+
+
+        if (s>=300||s<=3000);
             double n0 = (double) s * 0.0;
             double n1 = (double) s * 1.5;
             double n = (double) s;
-                System.out.println("За месяц 0 начислено $" + n0);
-                System.out.println("За месяц 13 начислено $" + n0);
-                System.out.println("За месяц 14 начислено $" + n0);
-                System.out.println("За июнь начислено $" + n);
-                System.out.println("За июль начислено $" + n);
-                System.out.println("За август начислено $" + n);
-                System.out.println("За январь начислено $" + n1);
-                System.out.println("За февраль начислено $" + n1);
-                System.out.println("За март начислено $" + n1);
-                System.out.println("За апрель начислено $" + n1);
-                System.out.println("За май начислено $" + n1);
-                System.out.println("За сентябрь начислено $" + n1);
-                System.out.println("За октябрь начислено $" + n1);
-                System.out.println("За ноябрь начислено $" + n1);
-                System.out.println("За декабрь начислено $" + n1);
+                    System.out.println("За месяц 0 начислено $" + n0);
+                    System.out.println("За месяц 13 начислено $" + n0);
+                    System.out.println("За месяц 14 начислено $" + n0);
+                    System.out.println("За июнь начислено $" + n);
+                    System.out.println("За июль начислено $" + n);
+                    System.out.println("За август начислено $" + n);
+                    System.out.println("За январь начислено $" + n1);
+                    System.out.println("За февраль начислено $" + n1);
+                    System.out.println("За март начислено $" + n1);
+                    System.out.println("За апрель начислено $" + n1);
+                    System.out.println("За май начислено $" + n1);
+                    System.out.println("За сентябрь начислено $" + n1);
+                    System.out.println("За октябрь начислено $" + n1);
+                    System.out.println("За ноябрь начислено $" + n1);
+                    System.out.println("За декабрь начислено $" + n1);
 
 
 
+            }
 
-    }
+
+
 
 
 }
