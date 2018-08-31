@@ -17,5 +17,4 @@ public class Main {
             System.out.printf("%8s %4d %n",hex, i);
         }
     }
-
 }
