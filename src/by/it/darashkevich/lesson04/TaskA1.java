@@ -1,4 +1,4 @@
-package by.it._tasks_.darashkevichL4.lesson04;
+package by.it._tasks_.darashkevich.lesson04;
 
 /*
 Выведите на экран в цикле 10 раз фразу
@@ -26,13 +26,17 @@ package by.it._tasks_.darashkevichL4.lesson04;
  */
 public class TaskA1 {
     public static void main(String[] args) {
-        int i;
-        for (i = 1; i <= 10; i++) {
-            if (i == 9 || i == 3) {
+        for (int i = 1; i <= 10; i++) {
+
+
+            if (i == 3 || i == 9)
                 System.out.println("Меня интересует высокая зарплата!");
-            } else {
+            else
                 System.out.println("Я изучаю программирование.");
-            }
+
 
         }
-    }}
+    }
+
+
+}

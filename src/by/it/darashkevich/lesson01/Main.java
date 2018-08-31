@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson01;
+package by.it._tasks_.darashkevich.lesson01;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,4 +17,5 @@ public class Main {
             System.out.printf("%8s %4d %n",hex, i);
         }
     }
+
 }

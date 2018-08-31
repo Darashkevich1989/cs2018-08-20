@@ -1,4 +1,4 @@
-package by.it._tasks_.darashkevichL4.lesson04;
+package by.it._tasks_.darashkevich.lesson04;
 
 /*
 Вывести таблицу умножения 10 x 10 (двоныйм циклом),
@@ -23,6 +23,25 @@ package by.it._tasks_.darashkevichL4.lesson04;
 десять умножить на десять равно сто
 */
 
+import java.util.Scanner;
+
 public class TaskC3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
+        int i=1;
+        int j=0;
+
+        while (i<=size) {
+            while (j<size) {
+                j++;
+                System.out.print(i * j + " ");
+            }
+            j=0;
+            System.out.println();
+            i++;}
+    }
+
+
 
 }
