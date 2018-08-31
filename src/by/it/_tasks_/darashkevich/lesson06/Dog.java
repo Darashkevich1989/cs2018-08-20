@@ -1,7 +1,7 @@
 package by.it._tasks_.darashkevich.lesson06;
 
 public class Dog {
-private String name;
+    private String name;
     private int age;
     private int weight;
     private double power;
@@ -13,6 +13,13 @@ private String name;
         this.name = name;
         this.age = age;
 
+    }
+
+    public Dog(String name, int age, int weight, double power) {
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
+        this.power = power;
     }
 
     public String getName() {
@@ -55,12 +62,14 @@ private String name;
 
     @Override
     public String toString() {
-        return "Кличка: "+name+". Возраст: "+age;
+        return "Кличка: " + name + ". Возраст: " + age;
     }
-boolean win(Dog otherDog){
-        double mychance=0.2*this.age+0.3*this.weight+0.5*this.power;
-        double other=0.2*this.age+0.3*this.weight+0.5*this.power;
-    return mychance>other;}
+
+    boolean win(Dog otherDog) {
+        double mychance = 0.2 * this.age + 0.3 * this.weight + 0.5 * this.power;
+        double other = 0.2 * otherDog.age + 0.3 * otherDog.weight + 0.5 * otherDog.power;
+        return mychance > other;
+    }
 
 }
 
