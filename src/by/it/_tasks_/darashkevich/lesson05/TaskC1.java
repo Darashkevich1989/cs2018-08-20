@@ -24,7 +24,7 @@ public class TaskC1 {
         for (int i = 0; i < 20; i++) {
             int j = scanner.nextInt();
             num.add(j);
-             if (j % 2 == 0&j % 3 == 0){
+             if (j % 2 == 0&&j % 3 == 0){
                 n1.add(j);
                 n2.add(j);}
             else if (j % 3 == 0){
